@@ -5,7 +5,7 @@ function Navbar(props) {
   return (
     <div id="nav">
       <div className="wrapper">
-        <div id="title">{props.children}</div>
+        <span id="title">{props.children}</span>
         <div id="scoreboard">
           Score: {props.score}
           High Score: {props.highscore}

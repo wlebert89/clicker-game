@@ -5,17 +5,18 @@ import items from "./items.json";
 
 class App extends Component {
   state = {
-    items: items,
+    items,
     score: 0,
     highscore: 0
   };
 
   clickItem = id => {
-    const shuffledItems = this.shuffleItems(items);
-    this.setState({ items: shuffledItems });
+    let newItems;
+    let score;
+    let highscore;
 
     if (this.state.items.find(item => item.id === id && !item.clicked)) {
-      const newItems = this.state.items.map(item => {
+      newItems = this.state.items.map(item => {
         if (item.id === id) {
           return {
             id: item.id,
@@ -26,23 +27,27 @@ class App extends Component {
           return item;
         }
       });
-
-      this.setState((prevState) => {
-        return {
-          items: newItems,
-          score: prevState.score + 1
-        }
-      }, () => {
-        console.log(this.state);
-      });
+      score = this.state.score + 1
+      if (score > this.state.highscore) {
+        highscore = score;
+      } else {
+        highscore = this.state.highscore;
+      }
     } else {
-      return this.gameOver();
+      newItems = this.state.items.map(item => ({
+        id: item.id,
+        image: item.image,
+        clicked: false
+      }));
+      score = 0;
+      highscore = this.state.highscore
     }
 
-  }
-
-  gameOver() {
-    console.log("Game Over");
+    this.setState({
+      items: this.shuffleItems(newItems),
+      score,
+      highscore
+    });
   }
 
   shuffleItems(arr) {
