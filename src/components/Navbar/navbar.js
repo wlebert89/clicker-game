@@ -5,10 +5,14 @@ function Navbar(props) {
   return (
     <div id="nav">
       <div className="wrapper">
-        <span id="title">{props.children}</span>
+        <div id="title">{props.children}</div>
         <div id="scoreboard">
-          Score: {props.score}
-          High Score: {props.highscore}
+          <span className="score">
+            Score: {props.score}
+          </span>
+          <span className="score">
+            High Score: {props.highscore}
+          </span>
         </div>
       </div>
     </div>

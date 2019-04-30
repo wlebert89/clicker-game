@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar/navbar";
 import ItemCard from "./components/ItemCard/itemCard";
 import items from "./items.json";
+import "./app.css"
 
 class App extends Component {
   state = {

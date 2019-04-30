@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "image": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "image": "https://images.pexels.com/photos/76966/crab-red-klippenkrabbe-grapsus-grapsus-shellfish-76966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "clicked": false
   },
   {
     "id": 2,
-    "image": "https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "image": "https://images.pexels.com/photos/349758/hummingbird-bird-birds-349758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "clicked": false
   },
   {
@@ -16,47 +16,47 @@
   },
   {
     "id": 4,
-    "image": "https://images.pexels.com/photos/39571/gorilla-silverback-animal-silvery-grey-39571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "image": "https://images.pexels.com/photos/681178/pexels-photo-681178.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "clicked": false
   },
   {
     "id": 5,
-    "image": "https://via.placeholder.com/350",
+    "image": "https://images.pexels.com/photos/50577/hedgehog-animal-baby-cute-50577.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "clicked": false
   },
   {
     "id": 6,
-    "image": "https://via.placeholder.com/350",
+    "image": "https://images.pexels.com/photos/1499596/pexels-photo-1499596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "clicked": false
   },
   {
     "id": 7,
-    "image": "https://via.placeholder.com/350",
+    "image": "https://images.pexels.com/photos/674318/pexels-photo-674318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "clicked": false
   },
   {
     "id": 8,
-    "image": "https://via.placeholder.com/350",
+    "image": "https://images.pexels.com/photos/1059823/pexels-photo-1059823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "clicked": false
   },
   {
     "id": 9,
-    "image": "https://via.placeholder.com/350",
+    "image": "https://images.pexels.com/photos/38280/monkey-mandril-africa-baboon-38280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "clicked": false
   },
   {
     "id": 10,
-    "image": "https://via.placeholder.com/350",
+    "image": "https://images.pexels.com/photos/752035/pexels-photo-752035.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "clicked": false
   },
   {
     "id": 11,
-    "image": "https://via.placeholder.com/350",
+    "image": "https://images.pexels.com/photos/76972/moose-moose-rack-male-bull-76972.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "clicked": false
   },
   {
     "id": 12,
-    "image": "https://via.placeholder.com/350",
+    "image": "https://images.pexels.com/photos/1159577/pexels-photo-1159577.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "clicked": false
   }
 ]

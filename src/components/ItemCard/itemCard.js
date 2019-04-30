@@ -3,7 +3,7 @@ import "./style.css";
 
 function ItemCard(props) {
   return (
-    <div>
+    <div className="item-card">
       <img className="item-image" alt="alt" src={props.image} onClick={props.clickItem} />
     </div>
   );
