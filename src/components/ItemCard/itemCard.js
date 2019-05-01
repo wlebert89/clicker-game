@@ -4,7 +4,7 @@ import "./style.css";
 function ItemCard(props) {
   return (
     <div className="item-card">
-      <img className="item-image" alt="alt" src={props.image} onClick={props.clickItem} />
+      <img className="item-image" alt={props.name} src={props.image} onClick={props.clickItem} />
     </div>
   );
 }
