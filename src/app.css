@@ -7,11 +7,38 @@
     justify-content: space-between;
 }
 
+#item-container-shake {
+    margin: auto;
+    margin-top: 20px;
+    width: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    animation: shake 0.5s;
+    animation-iteration-count: 2s;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
 #banner-text {
     text-align: center;
     height: 50px;
     width: 100%;
     color: #fff;
-    background: #000;
-    padding-top: 15px;
+    background: #111;
+    padding-top: 16px;
 }
