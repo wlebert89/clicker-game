@@ -9,14 +9,13 @@ class App extends Component {
     items,
     score: 0,
     highscore: 0,
-    bannerText: ""
+    bannerText: "",
   };
 
   clickItem = id => {
     let newItems;
     let score;
     let highscore;
-    let bannerText;
 
     if (this.state.items.find(item => item.id === id && !item.clicked)) {
       this.setState({ bannerText: "Correct!" });
@@ -38,7 +37,7 @@ class App extends Component {
         highscore = this.state.highscore;
       }
     } else {
-      this.setState({ bannerText: "Wrong! Click another image to restart." });
+      this.setState({ bannerText: "Game Over! Click another image to restart." });
       newItems = this.state.items.map(item => ({
         id: item.id,
         image: item.image,
@@ -53,7 +52,6 @@ class App extends Component {
       score,
       highscore
     });
-    return bannerText;
   }
 
   shuffleItems(arr) {
@@ -68,7 +66,7 @@ class App extends Component {
     return (
       <div>
         <Navbar score={this.state.score} highscore={this.state.highscore}>Clicker Game</Navbar>
-        <div>{this.state.bannerText}</div>
+        <div id="banner-text">{this.state.bannerText || "Click an image to begin."}</div>
         <div id="item-container">
           {this.state.items.map(item => (
             <ItemCard
